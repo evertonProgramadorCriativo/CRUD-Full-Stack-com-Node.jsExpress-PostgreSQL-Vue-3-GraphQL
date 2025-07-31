@@ -57,6 +57,61 @@ cd frontend
 npm install
 npm run serve
 ```
+## Exemplo de consultas
+
+
+```bash
+#  Query para listar todos os livros
+query {
+  books {
+    id
+    title
+    author
+    publishedYear
+  }
+}
+
+#  Query para buscar 1 livro por ID
+query {
+  book(id: 1) {
+    id
+    title
+    author
+    publishedYear
+  }
+}
+
+#Mutation para criar um livro
+
+mutation {
+  createBook(
+    title: "Dom Casmurro"
+    author: "Machado de Assis"
+    publishedYear: 1899
+  ) {
+    id
+    title
+  }
+}
+#Mutation para atualizar um livro
+mutation {
+  updateBook(
+    id: 1
+    title: "Dom Casmurro (Atualizado)"
+    author: "Machado de Assis"
+  ) {
+    id
+    title
+    author
+  }
+}
+
+#Mutation para deletar um livro
+mutation {
+  deleteBook(id: 1)
+}
+
+```
 
 ![Tabela Book](https://i.ibb.co/jdHypzd/Screenshot-3.png) 
 ![Tabela Book](https://i.ibb.co/Mk87vhbC/Screenshot-4.png) 
