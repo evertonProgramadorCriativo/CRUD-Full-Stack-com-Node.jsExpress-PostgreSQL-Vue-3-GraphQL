@@ -15,7 +15,9 @@
  
 
 
-![Tabela Book](https://i.ibb.co/wZKDWQfr/Screenshot-6.png) 
+![Tabela Book](https://i.ibb.co/SXkQ7mtR/Screenshot-1.png) 
+![Tabela Book](https://i.ibb.co/bgc3NbHZ/Screenshot-2.png) 
+
 
 ##  Tecnologias Utilizadas
 
@@ -54,4 +56,7 @@ npm run dev
 cd frontend
 npm install
 npm run serve
+```
 
+![Tabela Book](https://i.ibb.co/jdHypzd/Screenshot-3.png) 
+![Tabela Book](https://i.ibb.co/Mk87vhbC/Screenshot-4.png) 
